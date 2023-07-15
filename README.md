@@ -1,3 +1,7 @@
+# android_device_xiaomi_elish-kernel-prebuilt
+
+from V14.0.3.0.TKYCNXM
+
 ## Patch dtbo.img to fix physical panel dimensions
 
 ### Patch
