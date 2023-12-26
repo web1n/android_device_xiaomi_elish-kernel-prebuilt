@@ -13,13 +13,7 @@ extract Image and dtbo-orig.img by `unpack_bootimg --boot_img boot.img --out <pa
 
 ### Patch
 
-1. dump dtbo.img to dtb: `mkdtimg dump dtbo-orig.img -b test`
-2. patch test.22:
-```shell
-sed -i 's/\x05\xC2/\x00\x93/g' test.22
-sed -i 's/\x09\x37/\x00\xEC/g' test.22
-```
-3. dtb to dtbo.img: `mkdtimg create dtbo.img test.*`
+use patch.sh
 
 ### Result
 
