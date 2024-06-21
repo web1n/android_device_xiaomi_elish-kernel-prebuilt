@@ -1,9 +1,9 @@
 # android_device_xiaomi_elish-kernel-prebuilt
 
-from V14.0.5.0.TKYCNXM
+from OS1.0.2.0.TKYCNXM
 
 ```
-Linux version 4.19.157-perf-g0d29f5666bff (builder@pangu-build-component-vendor-298246-bt66w-6qvv8-q1d4k) (clang version 10.0.7 for Android NDK, GNU ld (binutils-2.27-bd24d23f) 2.27.0.20170315) #1 SMP PREEMPT Wed Sep 20 02:29:58 UTC 2023
+Linux version 4.19.157-perf-gf8cf95f4dc15 (builder@pangu-build-component-vendor-270518-njpgf-9wpr1-t1mg4) (clang version 10.0.7 for Android NDK, GNU ld (binutils-2.27-bd24d23f) 2.27.0.20170315) #1 SMP PREEMPT Tue May 7 07:59:22 UTC 2024
 ```
 
 extract dtb.img by `unpack_bootimg --boot_img vendor_boot.img --out <path>`
